@@ -10,7 +10,7 @@ export class DonateBlock {
   render(value) {
     this.#donateItem.innerHTML = `${getTodayDateFormat(
       new Date()
-    )} - <b>${value}$</b>`
+    )} - <b>${value}</b>`
 
     return this.#donateItem
   }
